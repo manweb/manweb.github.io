@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Earth Engine Map Integration</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .map-column {
+      flex: 2;
+      min-width: 0;
+    }
+    .description-column {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background-color: #f8f8f8;
+      box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="map-column">
+      <!-- Embed your Earth Engine app here -->
+      <iframe src="https://api-project-876143395706.projects.earthengine.app/view/global-samples-of-agbd-ch-and-cc" allowfullscreen></iframe>
+    </div>
+    <div class="description-column">
+      <h2>Aboveground Biomass Map</h2>
+      <p>
+        This visualization shows predicted aboveground biomass at 0.1° resolution, derived from high-resolution satellite data. 
+        Use the layer manager on the map to toggle variables like canopy cover or height.
+      </p>
+      <h3>How to use the map:</h3>
+      <ul>
+        <li>Zoom and pan to explore the data</li>
+        <li>Use the base map selector for different backgrounds</li>
+        <li>Toggle layers to compare variables</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
