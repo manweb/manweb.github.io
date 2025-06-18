@@ -8,7 +8,8 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      font-family: Arial, sans-serif;
+      font-family: 'Avenir', sans-serif;
+      font-size: 14px;
     }
     .container {
       display: flex;
@@ -20,12 +21,12 @@
     }
     .description-column {
       flex: 1;
-      padding: 20px;
+      padding-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
       overflow-y: auto;
       background-color: #f8f8f8;
       box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-      font-family: 'Avenir', sans-serif;
-      font-size: 14px;
     }
     iframe {
       width: 100%;
@@ -46,17 +47,20 @@
 <body>
   <div class="container">
     <div class="description-column">
-      <h2>Global samples of AGBD, CH and CC</h2>
+      <p>
+        <img src="images/EDA_logo_main.png" width="100px">
+      </p>
+      <h3>Global samples of AGBD, CH and CC for 2023</h3>
       <p>
         This application provides the visualization of Aboveground Biomass Density (AGBD), Canopy Height (CH), Canopy Cover (CC)
-        and their respective uncertainties for 9 globally distributed sample tiles. All tiles cover an area of 3° x 3° at a resolution
-        of 10 m/pixel. They correspond to the samples provided by the Zenodo repository referenced as <a href="https://doi.org/10.5281/zenodo.15269923">https://doi.org/10.5281/zenodo.15269923</a>
+        and their respective uncertainties for 9 globally distributed sample tiles corresponding to the year 2023. All tiles cover an area of 3° x 3° at a resolution
+        of 10 m/pixel. They correspond to the samples provided by the Zenodo repository referenced as <a href="https://doi.org/10.5281/zenodo.15269923" target="_blank">https://doi.org/10.5281/zenodo.15269923</a>
         which is a subset of the full global dataset available for download from a public AWS S3 bucket. For further instructions
         on how to get access to the full dataset, we refer to the Zenodo reference.
       </p>
       <p>
         These maps are accompanying the publication<br><br>
-        <i>Weber, M.; Beneke, C.; Wheeler, C. Unified Deep Learning Model for Global Prediction of Aboveground Biomass, Canopy Height, and Cover from High-Resolution, Multi-Sensor Satellite Imagery. Remote Sens. <b>2025</b>, 17, 1594. <a href="https://doi.org/10.3390/rs17091594">https://doi.org/10.3390/rs17091594</a><br><br>
+        <i>Weber, M.; Beneke, C.; Wheeler, C. Unified Deep Learning Model for Global Prediction of Aboveground Biomass, Canopy Height, and Cover from High-Resolution, Multi-Sensor Satellite Imagery. Remote Sens. <b>2025</b>, 17, 1594. <a href="https://doi.org/10.3390/rs17091594" target="_blank">https://doi.org/10.3390/rs17091594</a><br><br>
         which provides the details on the model approach and extensive evaluation metrics.</i>
       </p>
       <p>
