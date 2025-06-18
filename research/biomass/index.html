@@ -24,11 +24,22 @@
       overflow-y: auto;
       background-color: #f8f8f8;
       box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+      font-family: 'Avenir', sans-serif;
+      font-size: 14px;
     }
     iframe {
       width: 100%;
       height: 100%;
       border: none;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #005999;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -45,8 +56,14 @@
       </p>
       <p>
         These maps are accompanying the publication<br><br>
-        Weber, M.; Beneke, C.; Wheeler, C. Unified Deep Learning Model for Global Prediction of Aboveground Biomass, Canopy Height, and Cover from High-Resolution, Multi-Sensor Satellite Imagery. Remote Sens. <b>2025</b>, 17, 1594. https://doi.org/10.3390/rs17091594<br><br>
-        which provides the details on the model approach and extensive evaluation metrics.
+        <i>Weber, M.; Beneke, C.; Wheeler, C. Unified Deep Learning Model for Global Prediction of Aboveground Biomass, Canopy Height, and Cover from High-Resolution, Multi-Sensor Satellite Imagery. Remote Sens. <b>2025</b>, 17, 1594. <a href="https://doi.org/10.3390/rs17091594">https://doi.org/10.3390/rs17091594</a><br><br>
+        which provides the details on the model approach and extensive evaluation metrics.</i>
+      </p>
+      <p>
+        The scales of the various map layers are defined by the following colormaps:<br><br>
+        <img src="images/colorbar_agbd.png" width="100%"><br>
+        <img src="images/colorbar_ch.png" width="100%"><br>
+        <img src="images/colorbar_cc.png" width="100%">
       </p>
     </div>
     <div class="map-column">
