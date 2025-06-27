@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global maps of Aboveground Biomass, Canopy Height and Cover</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Avenir', sans-serif;
+      font-size: 14px;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .map-column {
+      flex: 2;
+      min-width: 0;
+    }
+    .description-column {
+      flex: 1;
+      padding-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      overflow-y: auto;
+      background-color: #f8f8f8;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #005999;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="description-column">
+      <p>
+        <img src="images/EDA_logo_main.png" width="100px">
+      </p>
+      <h3>Global Forest Mask for 2023</h3>
+      <p>
+        This application provides the visualization of global forest mask corresponding to the year 2023 at a ground sampling distance of 10 m.
+        This is a derived product based on the estimation of Canopy Height (CH) and Canopy Cover (CC) by our unified deep learning model as
+        described in the publication
+      <p>
+        <i>Weber, M.; Beneke, C.; Wheeler, C. Unified Deep Learning Model for Global Prediction of Aboveground Biomass, Canopy Height, and Cover from High-Resolution, Multi-Sensor Satellite Imagery. Remote Sens. <b>2025</b>, 17, 1594. <a href="https://doi.org/10.3390/rs17091594" target="_blank">https://doi.org/10.3390/rs17091594</a><br><br>
+        which provides the details on the model approach and extensive evaluation metrics.</i>
+      </p>
+      <p>
+        We use the widely accepted definition of forest by the UN Food and Agriculture Organization (FAO), requiring CH > 5 m and CC > 10% [1].
+        The forest mask (FM) is therefore defined as the output of the operation<br><br>
+        <code style="font-size: 12px;">
+          FM = [(CH - CH_sd) > 5 m] & [(CC - CC_sd) > 10%]
+        </code>
+        <br><br>
+        We subtract one standard deviation from the source variables, as estimated by the model, in order to compensate for the slight over-estimation
+        at low values of CH and CC resulting in a more conservative classification of forest. Further details are given in the publication mentioned above.
+        The dataset is available for download from the Zenodo repository <a href="https://doi.org/10.5281/zenodo.15741437" target="_blank">https://doi.org/10.5281/zenodo.15741437</a>
+        as well as from a public AWS S3 bucket (further instructions on Zenodo).
+      </p>
+      <p>
+        [1] Food and Agriculture Organization. (2000, November 2). FRA 2000 on definitions of forest and forest change (FRA Working Paper No. 33). Forest Resources Assessment Programme. Rome. Retrieved from FAO website <a href="https://www.fao.org/4/ad665e/ad665e00.htm">https://www.fao.org/4/ad665e/ad665e00.htm</a>
+      </p>
+    </div>
+    <div class="map-column">
+      <!-- Embed your Earth Engine app here -->
+      <iframe src="https://api-project-876143395706.projects.earthengine.app/view/global-forest-mask-for-2023" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
