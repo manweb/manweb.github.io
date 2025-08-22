@@ -1,0 +1,681 @@
+.home-container10 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  padding-top: 80px;
+  flex-direction: column;
+  background-color: #f2f4fa;
+}
+ 
+.home-navbar-interactive {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: space-between;
+  background-color: #f2f4fa;
+}
+ 
+.home-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.home-links1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.home-link10 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.home-link11 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.home-link12 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.home-link13 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.home-link14 {
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.home-burger-menu {
+  display: none;
+}
+ 
+.home-icon10 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.home-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+ 
+.home-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.home-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.home-logo {
+  height: 2rem;
+}
+ 
+.home-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.home-icon12 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.home-links2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.home-text10 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.home-text11 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.home-text12 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.home-text13 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.home-text14 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.home-buttons {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-layout-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.home-login {
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.home-icon14 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.home-icon16 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.home-icon18 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.home-container11 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.home-container12 {
+  flex: 0 0 auto;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.home-image1 {
+  width: 200px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+}
+ 
+.home-container13 {
+  flex: 0 0 auto;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.home-text15 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+  padding-top: 0px;
+}
+ 
+.home-text16 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "AvenirLTPro-Book";
+  padding-top: 10px;
+}
+ 
+.home-container14 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  z-index: 1;
+  margin-top: 20px;
+  flex-direction: column;
+}
+ 
+.home-image2 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+ 
+.home-container15 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin-top: -120px;
+  align-items: center;
+  margin-left: 5%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+ 
+.home-text21 {
+  font-size: 18px;
+  text-align: center;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+ 
+.home-container16 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.home-container17 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: inset;
+  border-width: 2px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+ 
+.home-container18 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: -50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f2f4fa;
+}
+ 
+.home-text27 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  font-family: "AvenirLTPro-Black";
+  justify-content: center;
+}
+ 
+.home-container19 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.home-link15 {
+  display: contents;
+}
+ 
+.home-container20 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+  margin-right: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+ 
+.home-image3 {
+  width: 100%;
+  object-fit: cover;
+}
+ 
+.home-text28 {
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 10px;
+  font-family: "AvenirLTPro-Book";
+  font-weight: 700;
+}
+ 
+.home-text29 {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.home-link16 {
+  display: contents;
+}
+ 
+.home-container21 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+ 
+.home-image4 {
+  width: 100%;
+  object-fit: cover;
+}
+ 
+.home-text30 {
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 10px;
+  font-family: "AvenirLTPro-Book";
+  font-weight: 700;
+}
+ 
+.home-text31 {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.home-link17 {
+  display: contents;
+}
+ 
+.home-container22 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 3%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+ 
+.home-image5 {
+  width: 100%;
+  object-fit: cover;
+}
+ 
+.home-text32 {
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 10px;
+  font-family: "AvenirLTPro-Book";
+  font-weight: 700;
+}
+ 
+.home-text33 {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.home-container23 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.home-container24 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: inset;
+  border-width: 2px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+ 
+.home-container25 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: -50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f2f4fa;
+}
+ 
+.home-text34 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  font-family: "AvenirLTPro-Black";
+  justify-content: center;
+}
+ 
+.home-container26 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.home-container27 {
+  width: 100%;
+  height: 490px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.home-container28 {
+  display: contents;
+}
+ 
+.home-link18 {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-family: "AvenirLTPro-Book";
+  text-decoration: underline;
+}
+ 
+.home-container29 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.home-container30 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: inset;
+  border-width: 2px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+ 
+.home-container31 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: -50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f2f4fa;
+}
+ 
+.home-text35 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  font-family: "AvenirLTPro-Black";
+  justify-content: center;
+}
+ 
+.home-container32 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+ 
+.home-text36 {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+ 
+.home-container33 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: flex-start;
+}
+ 
+.home-container34 {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+ 
+.home-link19 {
+  display: contents;
+}
+ 
+.home-image6 {
+  width: 50px;
+  object-fit: cover;
+  text-decoration: none;
+}
+ 
+.home-container35 {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.home-link20 {
+  display: contents;
+}
+ 
+.home-image7 {
+  width: 50px;
+  object-fit: cover;
+  text-decoration: none;
+}
+ 
+@media(max-width: 767px) {
+  .home-navbar-interactive {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .home-desktop-menu {
+    display: none;
+  }
+  .home-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-text10 {
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .home-text11 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .home-text12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .home-text13 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .home-text14 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .home-navbar-interactive {
+    padding: var(--dl-layout-space-unit);
+  }
+  .home-mobile-menu {
+    padding: 16px;
+  }
+}

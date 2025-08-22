@@ -1,1 +1,552 @@
-My Portfolio
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta property="og:title" content="Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container10">
+        <header data-thq="thq-navbar" class="home-navbar-interactive navbar">
+          <div data-thq="thq-navbar-nav" class="home-desktop-menu">
+            <nav class="home-links1">
+              <a href="#about" class="home-link10">About</a>
+              <a href="#research" class="home-link11">Research</a>
+              <a href="#publications" class="home-link12">Publications</a>
+              <a href="#contact" class="home-link13">Contact</a>
+              <a
+                href="https://manweb.github.io/resume_manuel-weber.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link14"
+              >
+                Resume
+              </a>
+            </nav>
+          </div>
+          <div data-thq="thq-burger-menu" class="home-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="home-icon10">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div class="home-nav">
+              <div class="home-top">
+                <img
+                  alt="image"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  class="home-logo"
+                />
+                <div data-thq="thq-close-menu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon12">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="home-links2">
+                <span class="home-text10">About</span>
+                <span class="home-text11">Features</span>
+                <span class="home-text12">Pricing</span>
+                <span class="home-text13">Team</span>
+                <span class="home-text14">Blog</span>
+              </nav>
+              <div class="home-buttons">
+                <button class="home-login button">Login</button>
+                <button class="button">Register</button>
+              </div>
+            </div>
+            <div>
+              <svg viewBox="0 0 950.8571428571428 1024" class="home-icon14">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon16">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon18">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <div class="home-container11">
+          <div class="home-container12">
+            <img
+              alt="image"
+              src="public/dsc08852-200h.jpg"
+              class="home-image1"
+            />
+          </div>
+          <div class="home-container13">
+            <span class="home-text15">Manuel Weber</span>
+            <span class="home-text16">
+              <span>Research Scientist, Geospatial AI</span>
+              <br />
+              <span>manuel.wbr (at) gmail.com</span>
+              <br />
+            </span>
+          </div>
+        </div>
+        <div class="home-container14">
+          <img alt="image" src="public/test-1200w.png" class="home-image2" />
+          <div class="home-container15">
+            <span id="about" class="home-text21">
+              <span>
+                Hi, my name is Manuel and I’m currently a Research Scientist at
+                EarthDaily. I hold a PhD in Physics from the University of Bern,
+                where I studied the properties of neutrinos—some of the most
+                elusive particles in the universe. I continued my research as a
+                Postdoc at Stanford, where I began integrating machine learning
+                into scientific data analysis. In 2019, I transitioned from
+                academia to industry to focus on applying AI to geospatial and
+                environmental challenges through satellite-based Earth
+                observation.
+              </span>
+              <br />
+              <br />
+              <span>
+                Over the past six years, I’ve developed deep learning–based
+                computer vision solutions for both clients and internal
+                research, including applications in object detection, object
+                tracking, crop yield modeling, change detection, neural
+                architecture search, and biomass estimation. My current focus is
+                on sustainability, particularly forest carbon estimation from
+                multi-sensor Earth observation data. I’m also actively working
+                on Earth observation foundation models, which I believe will
+                play a key role in scaling access to geospatial insights and
+                accelerating scientific progress.
+              </span>
+              <br />
+            </span>
+          </div>
+        </div>
+        <div class="home-container16">
+          <div class="home-container17"></div>
+          <div class="home-container18">
+            <span id="research" class="home-text27">Research</span>
+          </div>
+        </div>
+        <div class="home-container19">
+          <a href="research-foundation_models.html" class="home-link15">
+            <div class="home-container20">
+              <img
+                alt="image"
+                src="public/frame%203-400w.png"
+                class="home-image3"
+              />
+              <span class="home-text28">Geospatial foundation models</span>
+              <span class="home-text29">
+                GeoFM hold the potential to revolutionize how we interact with
+                geospatial data. This is my research on a novel architecture and
+                SSL approach.
+              </span>
+            </div>
+          </a>
+          <a href="research-biomass.html" class="home-link16">
+            <div class="home-container21">
+              <img
+                alt="image"
+                src="public/frame%201-400w.png"
+                class="home-image4"
+              />
+              <span class="home-text30">
+                Forest biomass, canopy height and cover
+              </span>
+              <span class="home-text31">
+                Mapping the worlds biomass stored in forests is crucial for
+                environmental studies. I have developed an AI model for this
+                task.
+              </span>
+            </div>
+          </a>
+          <a href="research-generic_change_detector.html" class="home-link17">
+            <div class="home-container22">
+              <img
+                alt="image"
+                src="public/frame%202-400w.png"
+                class="home-image5"
+              />
+              <span class="home-text32">Generic change detection</span>
+              <span class="home-text33">
+                Change detection in remote sensing data is widely used but
+                mostly implemented with custom models. This is a generic
+                approach.
+              </span>
+            </div>
+          </a>
+        </div>
+        <div class="home-container23">
+          <div class="home-container24"></div>
+          <div class="home-container25">
+            <span id="publications" class="home-text34">Publications</span>
+          </div>
+        </div>
+        <div class="home-container26">
+          <div class="home-container27">
+            <div class="home-container28">
+              <style>
+                .custom-link {
+                  text-decoration: none;
+                  color: inherit;
+                  font-family: 'AvenirLTPro-Book';
+                  font-size: 18px;
+                }
+
+                .custom-link:hover {
+                  text-decoration: underline;
+                }
+
+                .custom-text {
+                  font-family: 'AvenirLTPro-Book';
+                  font-size: 18px;
+                  color: inherit;
+                }
+
+                .custom-text-small {
+                  font-family: 'AvenirLTPro-Book';
+                  font-size: 16px;
+                  color: grey;
+                }
+
+                .custom-table {
+                  width: 100%;
+                  border-collapse: separate;
+                  border-spacing: 0 5px;
+                }
+              </style>
+
+              <table class="custom-table">
+                <tbody>
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link">
+                          Unified deep learning model for global prediction of
+                          aboveground biomass, canopy height and cover from
+                          high-resolution, multi-sensor satellite imagery
+                        </a>
+                      </div>
+                      <div class="custom-text-small">
+                        M Weber, C Beneke, C Wheeler
+                      </div>
+                      <div class="custom-text-small">
+                        Remote Sensing 17 (9), 1594
+                      </div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text">2025</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link">
+                          PyViT-FUSE: A Foundation Model for Multi-Sensor Earth
+                          Observation Data
+                        </a>
+                      </div>
+                      <div class="custom-text-small">M Weber, C Beneke</div>
+                      <div class="custom-text-small">
+                        arXiv preprint arXiv:2504.18770
+                      </div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text">2025</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link">
+                          A Tetramethylsilane TPC with Cherenkov light readout
+                          and 3D reconstruction
+                        </a>
+                      </div>
+                      <div class="custom-text-small">
+                        SX Wu, BG Lenardo, Manuel Weber, Giorgio Gratta
+                      </div>
+                      <div class="custom-text-small">
+                        Nucl. Instrum. Methods Phys. Res., Sect. A
+                      </div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text">2020</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link">
+                          Search for Neutrinoless Double-β Decay with the
+                          Complete EXO-200 Dataset
+                        </a>
+                      </div>
+                      <div class="custom-text-small">EXO-Collaboration</div>
+                      <div class="custom-text-small">
+                        Phys. Rev. Lett. 123, 161802
+                      </div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text">2019</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link">
+                          Deep neural networks for energy and position
+                          reconstruction in EXO-200
+                        </a>
+                      </div>
+                      <div class="custom-text-small">
+                        S Delaquis, MJ Jewell, I Ostrovskiy, M Weber, T Ziegler,
+                        et al.
+                      </div>
+                      <div class="custom-text-small">
+                        J. Instrum. 13 (08), P08023
+                      </div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text">2018</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link">
+                          Search for Majorana neutrinos with the first two years
+                          of EXO-200 data
+                        </a>
+                      </div>
+                      <div class="custom-text-small">EXO-Collaboration</div>
+                      <div class="custom-text-small">Nature 510, 229-234</div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text">2014</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link">
+                          Observation of Two-Neutrino Double-Beta Decay in
+                          <sup>136</sup>
+                          Xe with the EXO-200 Detector
+                        </a>
+                      </div>
+                      <div class="custom-text-small">EXO-Collaboration</div>
+                      <div class="custom-text-small">
+                        Phys. Rev. Lett. 107, 212501
+                      </div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text">2011</div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="vertical-align: top; text-align: left;">
+                      <div>
+                        <a href="#" class="custom-link"></a>
+                      </div>
+                      <div class="custom-text-small"></div>
+                      <div class="custom-text-small"></div>
+                    </td>
+
+                    <td
+                      style="width: 100px; vertical-align: top; text-align: right;"
+                    >
+                      <div class="custom-text"></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <a
+            href="https://scholar.google.com/citations?user=JUNlRd0AAAAJ&amp;hl=en"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="home-link18"
+          >
+            See 50 more
+          </a>
+        </div>
+        <div class="home-container29">
+          <div class="home-container30"></div>
+          <div class="home-container31">
+            <span id="contact" class="home-text35">Contact</span>
+          </div>
+        </div>
+        <div class="home-container32">
+          <span class="home-text36">
+            You can find me on the following platforms
+          </span>
+          <div class="home-container33">
+            <div class="home-container34">
+              <a
+                href="https://www.linkedin.com/in/manuel-weber/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link19"
+              >
+                <img
+                  alt="image"
+                  src="public/linkedin_3800046-200h.png"
+                  class="home-image6"
+                />
+              </a>
+            </div>
+            <div class="home-container35">
+              <a
+                href="https://github.com/manweb"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link20"
+              >
+                <img
+                  alt="image"
+                  src="public/github_733609-200h.png"
+                  class="home-image7"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        const scrollThreshold = 300;
+        if (window.scrollY > scrollThreshold) {
+          navbar.style.opacity = '0';
+          navbar.style.pointerEvents = 'none';
+        } else {
+          navbar.style.opacity = '1';
+          navbar.style.pointerEvents = 'auto';
+        }
+      });
+    </script>
+    <script>
+      let lastScrollY = window.scrollY;
+      const element = document.querySelector('.navbar-sub');
+      const fadeDistance = 100;
+
+      window.addEventListener('scroll', function () {
+        const currentScrollY = window.scrollY;
+
+        // Scrolling down
+        if (currentScrollY > lastScrollY && currentScrollY > fadeDistance) {
+          element.style.opacity = '0';
+          element.style.pointerEvents = 'none';
+        }
+
+        // Scrolling up
+        if (currentScrollY < lastScrollY && currentScrollY > 0) {
+          element.style.opacity = '1';
+          element.style.pointerEvents = 'auto';
+        }
+
+        lastScrollY = currentScrollY;
+      });
+    </script>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
