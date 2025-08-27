@@ -643,6 +643,9 @@
 }
  
 @media(max-width: 479px) {
+  .home-container10 {
+    padding-top: 60px;
+  }
   .home-navbar-interactive {
     height: 50px;
     padding: var(--dl-layout-space-unit);
@@ -785,6 +788,9 @@
   }
   .home-container26 {
     width: 90%;
+  }
+  .home-container27 {
+    height: 710px;
   }
   .home-link21 {
     font-size: 14px;
