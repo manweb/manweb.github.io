@@ -1,4 +1,4 @@
-.research-foundationmodels-container1 {
+.research-foundationmodels-container10 {
   width: 100%;
   display: flex;
   min-height: 100vh;
@@ -7,7 +7,7 @@
   background-color: #f2f4fa;
 }
  
-.research-foundationmodels-container2 {
+.research-foundationmodels-container11 {
   flex: 0 0 auto;
   width: 100%;
   height: 40px;
@@ -25,7 +25,16 @@
   border-bottom-width: 1px;
 }
  
-.research-foundationmodels-container3 {
+.research-foundationmodels-container12 {
+  flex: 0 0 auto;
+  width: 50px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.research-foundationmodels-container13 {
   flex: 0 0 auto;
   width: 50px;
   height: 40px;
@@ -34,17 +43,17 @@
   padding-left: 10px;
 }
  
-.research-foundationmodels-link1 {
+.research-foundationmodels-link {
   display: contents;
 }
  
-.research-foundationmodels-image {
+.research-foundationmodels-image1 {
   width: 30px;
   object-fit: cover;
   text-decoration: none;
 }
  
-.research-foundationmodels-container4 {
+.research-foundationmodels-container14 {
   flex: 0 0 auto;
   width: 100%;
   height: 40px;
@@ -54,14 +63,14 @@
   justify-content: center;
 }
  
-.research-foundationmodels-text1 {
+.research-foundationmodels-text100 {
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-family: "AvenirLTPro-Book";
 }
  
-.research-foundationmodels-container5 {
+.research-foundationmodels-container15 {
   flex: 0 0 auto;
   width: 80%;
   height: auto;
@@ -74,7 +83,7 @@
   background-color: #ffffff;
 }
  
-.research-foundationmodels-text2 {
+.research-foundationmodels-text101 {
   width: 100%;
   font-size: 32px;
   font-style: normal;
@@ -87,7 +96,7 @@
   padding-bottom: 50px;
 }
  
-.research-foundationmodels-text3 {
+.research-foundationmodels-text102 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -97,6 +106,294 @@
   padding-bottom: 10px;
 }
  
-.research-foundationmodels-link2 {
+.research-foundationmodels-text104 {
   text-decoration: underline;
+}
+ 
+.research-foundationmodels-text113 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+}
+ 
+.research-foundationmodels-text128 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+}
+ 
+.research-foundationmodels-container16 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-foundationmodels-image2 {
+  width: 800px;
+  object-fit: cover;
+}
+ 
+.research-foundationmodels-text133 {
+  color: rgb(76, 76, 76);
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-foundationmodels-text136 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-foundationmodels-text140 {
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-foundationmodels-text144 {
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-foundationmodels-text148 {
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-foundationmodels-text155 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+}
+ 
+.research-foundationmodels-container17 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-foundationmodels-image3 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-foundationmodels-text163 {
+  color: #4c4c4c;
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+}
+ 
+.research-foundationmodels-text164 {
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-foundationmodels-text166 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-foundationmodels-text173 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+}
+ 
+.research-foundationmodels-container18 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-foundationmodels-image4 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-foundationmodels-text178 {
+  color: #4c4c4c;
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-foundationmodels-text179 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-foundationmodels-container19 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-foundationmodels-image5 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-foundationmodels-text185 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-foundationmodels-text186 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-foundationmodels-text187 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+}
+ 
+.research-foundationmodels-text193 {
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-foundationmodels-container20 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-foundationmodels-image6 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-foundationmodels-text198 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-foundationmodels-text199 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-foundationmodels-text209 {
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-foundationmodels-container21 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-foundationmodels-image7 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-foundationmodels-text214 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-foundationmodels-text215 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-foundationmodels-text222 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+}
+ 
+.research-foundationmodels-container22 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-foundationmodels-image8 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-foundationmodels-text236 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-foundationmodels-text237 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }

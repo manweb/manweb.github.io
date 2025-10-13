@@ -8,7 +8,7 @@
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -65,39 +65,422 @@
     <div>
       <link href="./research-foundation_models.css" rel="stylesheet" />
 
-      <div class="research-foundationmodels-container1">
-        <div class="research-foundationmodels-container2 navbar-sub">
-          <div class="research-foundationmodels-container3">
-            <a href="index.html" class="research-foundationmodels-link1">
-              <img
-                alt="image"
-                src="public/back_arrow-200h.png"
-                class="research-foundationmodels-image"
-              />
-            </a>
+      <div class="research-foundationmodels-container10">
+        <div class="research-foundationmodels-container11 navbar-sub">
+          <div class="research-foundationmodels-container12">
+            <div class="research-foundationmodels-container13">
+              <a
+                href="index.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="research-foundationmodels-link"
+              >
+                <img
+                  src="public/back-arrow-icon-200h.png"
+                  alt="image"
+                  class="research-foundationmodels-image1"
+                />
+              </a>
+            </div>
           </div>
-          <div class="research-foundationmodels-container4">
-            <span class="research-foundationmodels-text1">Research</span>
+          <div class="research-foundationmodels-container14">
+            <span class="research-foundationmodels-text100">Research</span>
           </div>
         </div>
-        <div class="research-foundationmodels-container5">
-          <span class="research-foundationmodels-text2">
+        <div class="research-foundationmodels-container15">
+          <span class="research-foundationmodels-text101">
             Geospatial Foundation Models
           </span>
-          <span class="research-foundationmodels-text3">
+          <span class="research-foundationmodels-text102">
             <span>
-              Content coming soon. In the meantime, check out our recent
-              paper:&nbsp;
+              This article is based on the paper published at ICLR 2025:&nbsp;
             </span>
-            <a
-              href="https://arxiv.org/abs/2504.18770"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="research-foundationmodels-link2"
-            >
+            <span class="research-foundationmodels-text104">
               PyViT-FUSE: A Foundation Model for Multi-Sensor Earth Observation
               Data
-            </a>
+            </span>
+            <br />
+            <br />
+            <span>
+              Over the past year, I’ve been working on something that’s been
+              both technically challenging and deeply inspiring: building a
+              foundation model for Earth observation. The idea is simple to
+              describe but ambitious in scope — can we train a single model that
+              understands satellite imagery from any sensor, at any resolution,
+              and extract meaningful information about our planet?
+            </span>
+            <br />
+            <br />
+            <span>
+              This post is a summary of that journey — from the first prototype
+              to early results — and what it might mean for the future of remote
+              sensing.
+            </span>
+            <br />
+            <br />
+            <span class="research-foundationmodels-text113">
+              From Language to Landscapes: Why Foundation Models Matter
+            </span>
+            <br />
+            <br />
+            <span>
+              The success of large language models has changed how we think
+              about AI: by training on massive, diverse data, a model can learn
+              general representations of language that transfer to countless
+              downstream tasks.
+            </span>
+            <br />
+            <br />
+            <span>
+              The same concept can be applied to imagery — in our case, Earth
+              observation imagery from satellites. Instead of words and
+              sentences, our “language” consists of pixels, spectral bands, and
+              spatial patterns. The goal is to learn an internal representation
+              of the Earth that captures its structure, texture, and composition
+              across all kinds of sensors.
+            </span>
+            <br />
+            <br />
+            <span>
+              In remote sensing, this is particularly exciting (and challenging)
+              because different satellites see the world in very different ways.
+              They vary in spectral composition, spatial resolution, and
+              temporal coverage. Some capture fine optical details; others see
+              radar backscatter or thermal signatures. A true foundation model
+              for Earth observation must learn to fuse all these modalities — to
+              build a shared understanding of the planet.
+            </span>
+            <br />
+            <br />
+            <span>That’s the problem I set out to tackle.</span>
+            <br />
+            <br />
+            <span class="research-foundationmodels-text128">
+              From Concept to Architecture: The PyViT-FUSE Model
+            </span>
+            <br />
+            <br />
+            <span>
+              At the core of the project is a model architecture called
+              PyViT-FUSE. It’s designed to process data from multiple satellite
+              sources at their native resolutions and merge them into a single,
+              coherent embedding — a compact vector that represents the content
+              of an image patch.
+            </span>
+            <br />
+          </span>
+          <div class="research-foundationmodels-container16">
+            <img
+              alt="image"
+              src="public/pyvit-fuse%20-%20architecture-800w.png"
+              class="research-foundationmodels-image2"
+            />
+            <span class="research-foundationmodels-text133">
+              <span>Fig 1: Overview of the PyViT-FUSE architecture</span>
+              <span></span>
+            </span>
+          </div>
+          <span class="research-foundationmodels-text136">
+            <span>The architecture has three main parts:</span>
+            <br />
+            <span></span>
+            <span class="research-foundationmodels-text140">
+              1. Input module
+            </span>
+            <span>
+              – reads imagery from different sensors (e.g., Sentinel, SPOT)
+              while keeping their unique resolutions intact.
+            </span>
+            <br />
+            <span></span>
+            <span class="research-foundationmodels-text144">
+              2. Fusion module
+            </span>
+            <span>
+              – combines the different inputs into a unified representation, no
+              matter which bands or sensors are available.
+            </span>
+            <br />
+            <span></span>
+            <span class="research-foundationmodels-text148">
+              3. Pyramidal Vision Transformer (ViT)
+            </span>
+            <span>
+              – extracts hierarchical features at multiple scales, similar to
+              how CNNs build progressively richer spatial features.
+            </span>
+            <br />
+            <br />
+            <span>
+              These encoder features can be reused for a wide range of
+              downstream tasks — such as segmentation or classification — by
+              attaching lightweight decoders.
+            </span>
+            <br />
+            <br />
+            <span class="research-foundationmodels-text155">
+              Training the Model: Self-Supervised Learning with SwAV
+            </span>
+            <br />
+            <br />
+            <span>
+              One of the most important aspects of this work is that the model
+              is trained without any labels. Instead, it learns by comparing
+              different “views” of the same location — a technique known as
+              self-supervised learning.
+            </span>
+            <br />
+            <br />
+            <span>
+              I used a modified version of the SwAV algorithm, which clusters
+              feature embeddings and encourages the model to align similar
+              patches with the same cluster prototypes.
+            </span>
+            <br />
+          </span>
+          <div class="research-foundationmodels-container17">
+            <img
+              alt="image"
+              src="public/003_swav-200h.png"
+              class="research-foundationmodels-image3"
+            />
+            <span class="research-foundationmodels-text163">
+              <span class="research-foundationmodels-text164">
+                Fig 2: Illustration of the modified SwAV algorithm which
+                generates a global view through weak augmentations and multiple
+                local views through heavy augmentations including band and
+                sensor drop. The resulting embeddings are aligned with learned
+                prototype vectors where views of the same image patch are
+                expected to be aligned with the same prototype vectors.
+              </span>
+              <span></span>
+            </span>
+          </div>
+          <span class="research-foundationmodels-text166">
+            <span>
+              To make this approach work for remote sensing, I introduced a
+              band-drop augmentation. The idea is that a single surface patch
+              can be observed by multiple sensors — each with different spectral
+              bands. By randomly dropping or mixing these bands during training,
+              the model learns to produce consistent embeddings even when some
+              modalities are missing.
+            </span>
+            <br />
+            <br />
+            <span>
+              This means that once trained, the model can process any
+              combination of input bands — an essential property for real-world
+              satellite applications.
+            </span>
+            <br />
+            <br />
+            <span class="research-foundationmodels-text173">
+              What the Model Learned
+            </span>
+            <br />
+            <br />
+            <span>
+              After training a medium-sized model (~100 million parameters) on a
+              globally sampled dataset, I started exploring what the embeddings
+              looked like. One way to test this is by checking whether the same
+              location observed by different sensors ends up close together in
+              feature space.
+            </span>
+            <br />
+          </span>
+          <div class="research-foundationmodels-container18">
+            <img
+              alt="image"
+              src="public/similarity_distance-600w.png"
+              class="research-foundationmodels-image4"
+            />
+            <span class="research-foundationmodels-text178">
+              Fig 3: Cosine similarity (left) and L2 distance between the
+              embeddings of the global view and local view across the samples
+              within a batch.
+            </span>
+          </div>
+          <span class="research-foundationmodels-text179">
+            <span>
+              That’s exactly what we found — embeddings of the same surface
+              patch were closely aligned, even if one came from optical imagery
+              and the other from radar or multispectral data.
+            </span>
+            <br />
+            <br />
+            <span>
+              Visualizing this alignment showed clear structure: each image view
+              strongly aligned with only a few prototype vectors, and
+              corresponding views (global and local) matched the same
+              prototypes. The cosine similarity between pairs of embeddings
+              confirmed this — high for the same sample, low for different ones.
+            </span>
+            <br />
+          </span>
+          <div class="research-foundationmodels-container19">
+            <img
+              alt="image"
+              src="public/007_prototype_alignment-200h.png"
+              class="research-foundationmodels-image5"
+            />
+            <span class="research-foundationmodels-text185">
+              Fig 4: Illustration of embedding alignment with all prototypes for
+              the global (q) and local (p) view.
+            </span>
+          </div>
+          <span class="research-foundationmodels-text186">
+            <span class="research-foundationmodels-text187">
+              From Representations to Real Applications
+            </span>
+            <br />
+            <br />
+            <span>
+              A foundation model is only useful if its learned representations
+              can be applied to real-world tasks. To test this, I trained a
+              lightweight decoder with frozen encoder for a few example
+              applications.
+            </span>
+            <br />
+            <br />
+            <span class="research-foundationmodels-text193">
+              1. Detecting Solar PV Installations
+            </span>
+            <br />
+            <br />
+            <span>
+              The first experiment focused on detecting solar photovoltaic (PV)
+              arrays — structures that are small, spatially sparse, and often
+              difficult to identify from single modalities.
+            </span>
+            <br />
+          </span>
+          <div class="research-foundationmodels-container20">
+            <img
+              alt="image"
+              src="public/012_solarpv_outputs-600w.png"
+              class="research-foundationmodels-image6"
+            />
+            <span class="research-foundationmodels-text198">
+              Fig 5: Inputs (first 4 columns from the left), target (5th column)
+              and the outputs of various models which use different input
+              modalities. The right column corresponds to a reference model
+              based on ResNet-50.
+            </span>
+          </div>
+          <span class="research-foundationmodels-text199">
+            <span>
+              Using the foundation model as the encoder, I built a simple
+              convolutional decoder that upsamples and merges feature maps from
+              all encoder depths (a UNet-style design). The results were
+              striking:
+            </span>
+            <br />
+            <span>
+              &nbsp; &nbsp; • Adding more modalities consistently improved
+              accuracy.
+            </span>
+            <br />
+            <span>
+              &nbsp; &nbsp; • When clouds obscured parts of the optical imagery,
+              other sensors filled in the missing information.
+            </span>
+            <br />
+            <span>
+              This was a great example of how multi-modal fusion directly
+              improves model robustness.
+            </span>
+            <br />
+            <br />
+            <span class="research-foundationmodels-text209">
+              2. Cloud and Shadow Detection
+            </span>
+            <br />
+            <br />
+            <span>
+              Next, I applied the same setup to cloud and shadow segmentation —
+              a classic task in remote sensing.
+            </span>
+            <br />
+          </span>
+          <div class="research-foundationmodels-container21">
+            <img
+              alt="image"
+              src="public/cloudmask_sample-600w.png"
+              class="research-foundationmodels-image7"
+            />
+            <span class="research-foundationmodels-text214">
+              Fig 6: Inputs (two first columns from the left), target (3rd
+              column) and model output. The right column corresponds to a
+              reference model based on ResNet-50.
+            </span>
+          </div>
+          <span class="research-foundationmodels-text215">
+            <span>
+              The model outputs three classes (cloud, shadow, background) and
+              works on single-modality inputs. Despite its simplicity, the
+              foundation-based model performed on par or better than a reference
+              ResNet-50 model, especially in challenging illumination
+              conditions.
+            </span>
+            <br />
+            <br />
+            <span>
+              These early experiments confirmed what I hoped for: the pretrained
+              embeddings make downstream models both faster to train and more
+              accurate.
+            </span>
+            <br />
+            <br />
+            <span class="research-foundationmodels-text222">
+              Compressing Earth: The Power of Embeddings
+            </span>
+            <br />
+            <br />
+            <span>
+              One of the most exciting implications of this work is that each
+              embedding — the output of the encoder — acts as a highly
+              compressed representation of an image scene.
+            </span>
+            <br />
+            <br />
+            <span>
+              Instead of storing or reprocessing terabytes of raw satellite
+              data, we could imagine precomputing embeddings for all available
+              scenes. These could be indexed and searched directly — enabling
+              tasks like:
+            </span>
+            <br />
+            <span>
+              &nbsp; &nbsp; • Finding visually or structurally similar locations
+              on Earth.
+            </span>
+            <br />
+            <span>&nbsp; &nbsp; • Rapid change detection across time.</span>
+            <br />
+            <span>
+              &nbsp; &nbsp; • Plug-and-play training for new applications.
+            </span>
+            <br />
+          </span>
+          <div class="research-foundationmodels-container22">
+            <img
+              alt="image"
+              src="public/embeddings-600w.png"
+              class="research-foundationmodels-image8"
+            />
+            <span class="research-foundationmodels-text236">
+              Fig 7: Visualization of embeddings generated by PyViT-FUSE for
+              each 960m x 960m patch. The color represents the distance in
+              feature space by projecting the 1024-dimensional feature vector
+              onto a 3-dimensional RGB space by a parametric UMAP model.
+            </span>
+          </div>
+          <span class="research-foundationmodels-text237">
+            <span>
+              In a way, these embeddings become a memory of the planet — a
+              compressed but meaningful representation of its surface.
+            </span>
+            <br />
           </span>
         </div>
       </div>
