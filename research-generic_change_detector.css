@@ -1,4 +1,4 @@
-.research-genericchangedetector-container1 {
+.research-genericchangedetector-container10 {
   width: 100%;
   display: flex;
   min-height: 100vh;
@@ -7,7 +7,7 @@
   background-color: #f2f4fa;
 }
  
-.research-genericchangedetector-container2 {
+.research-genericchangedetector-container11 {
   flex: 0 0 auto;
   width: 100%;
   height: 40px;
@@ -25,7 +25,7 @@
   border-bottom-width: 1px;
 }
  
-.research-genericchangedetector-container3 {
+.research-genericchangedetector-container12 {
   flex: 0 0 auto;
   width: 50px;
   height: 40px;
@@ -35,17 +35,17 @@
   justify-content: center;
 }
  
-.research-genericchangedetector-link {
+.research-genericchangedetector-link1 {
   display: contents;
 }
  
-.research-genericchangedetector-image {
+.research-genericchangedetector-image10 {
   width: 30px;
   object-fit: cover;
   text-decoration: none;
 }
  
-.research-genericchangedetector-container4 {
+.research-genericchangedetector-container13 {
   flex: 0 0 auto;
   width: 100%;
   height: 40px;
@@ -55,14 +55,14 @@
   justify-content: center;
 }
  
-.research-genericchangedetector-text1 {
+.research-genericchangedetector-text100 {
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-family: "AvenirLTPro-Book";
 }
  
-.research-genericchangedetector-container5 {
+.research-genericchangedetector-container14 {
   flex: 0 0 auto;
   width: 80%;
   height: auto;
@@ -75,7 +75,7 @@
   background-color: #ffffff;
 }
  
-.research-genericchangedetector-text2 {
+.research-genericchangedetector-text101 {
   width: 100%;
   font-size: 32px;
   font-style: normal;
@@ -88,7 +88,8 @@
   padding-bottom: 50px;
 }
  
-.research-genericchangedetector-text3 {
+.research-genericchangedetector-text102 {
+  width: 100%;
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -96,4 +97,365 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text104 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-text105 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-text106 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-text107 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-link2 {
+  text-decoration: underline;
+}
+ 
+.research-genericchangedetector-container15 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image11 {
+  width: 800px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text123 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-text124 {
+  width: 100%;
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text125 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-container16 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image12 {
+  width: 400px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text137 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-container17 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image13 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text138 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-text139 {
+  width: 100%;
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text140 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-container18 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image14 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text149 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-text150 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text151 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-container19 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image15 {
+  width: 800px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text163 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-text164 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text165 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-container20 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image16 {
+  width: 400px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text176 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-container21 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image17 {
+  width: 800px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text177 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-text178 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text179 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-container22 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image18 {
+  width: 800px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-image19 {
+  width: 800px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-image20 {
+  width: 800px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text189 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-text190 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text191 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
+}
+ 
+.research-genericchangedetector-container23 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image21 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text201 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-container24 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.research-genericchangedetector-image22 {
+  width: 600px;
+  object-fit: cover;
+}
+ 
+.research-genericchangedetector-text202 {
+  color: rgb(76, 76, 76);
+  width: 80%;
+  font-size: 18px;
+  align-self: center;
+  font-family: "AvenirLTPro-Book";
+}
+ 
+.research-genericchangedetector-text203 {
+  font-size: 18px;
+  font-family: "AvenirLTPro-Book";
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+ 
+.research-genericchangedetector-text204 {
+  font-size: 24px;
+  font-family: "AvenirLTPro-Black";
 }
