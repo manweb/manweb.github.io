@@ -1,6 +1,7 @@
 .research-biomass-container10 {
   width: 100%;
   display: flex;
+  font-size: 18px;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
@@ -102,11 +103,28 @@
   text-decoration: underline;
 }
  
+.research-biomass-text112 {
+  font-family: "AvenirLTPro-Black";
+  line-height: 2;
+}
+ 
 .research-biomass-link12 {
   text-decoration: underline;
 }
  
 .research-biomass-link13 {
+  text-decoration: underline;
+}
+ 
+.research-biomass-link14 {
+  text-decoration: underline;
+}
+ 
+.research-biomass-link15 {
+  text-decoration: underline;
+}
+ 
+.research-biomass-link16 {
   text-decoration: underline;
 }
  
@@ -125,7 +143,7 @@
   object-fit: cover;
 }
  
-.research-biomass-text116 {
+.research-biomass-text124 {
   color: rgb(76, 76, 76);
   width: 80%;
   font-size: 18px;
@@ -133,7 +151,7 @@
   font-family: "AvenirLTPro-Book";
 }
  
-.research-biomass-text119 {
+.research-biomass-text127 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -143,18 +161,18 @@
   padding-bottom: 10px;
 }
  
-.research-biomass-text120 {
+.research-biomass-text128 {
   font-size: 24px;
   font-style: normal;
   font-family: "AvenirLTPro-Black";
   font-weight: 500;
 }
  
-.research-biomass-link14 {
+.research-biomass-link17 {
   text-decoration: underline;
 }
  
-.research-biomass-text136 {
+.research-biomass-text144 {
   font-size: 24px;
   font-style: normal;
   font-family: "AvenirLTPro-Black";
@@ -175,7 +193,7 @@
   object-fit: cover;
 }
  
-.research-biomass-text141 {
+.research-biomass-text149 {
   color: rgb(76, 76, 76);
   width: 80%;
   font-size: 18px;
@@ -193,14 +211,14 @@
   padding-bottom: 10px;
 }
  
-.research-biomass-text145 {
+.research-biomass-text153 {
   font-size: 24px;
   font-style: normal;
   font-family: "AvenirLTPro-Black";
   font-weight: 500;
 }
  
-.research-biomass-link15 {
+.research-biomass-link18 {
   text-decoration: underline;
 }
  
@@ -218,13 +236,13 @@
   object-fit: cover;
 }
  
-.research-biomass-text154 {
+.research-biomass-text162 {
   color: #4c4c4c;
   width: 80%;
   align-self: center;
 }
  
-.research-biomass-text155 {
+.research-biomass-text163 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
 }
@@ -263,13 +281,13 @@
   object-fit: cover;
 }
  
-.research-biomass-text157 {
+.research-biomass-text165 {
   color: #4c4c4c;
   width: 80%;
   align-self: center;
 }
  
-.research-biomass-text158 {
+.research-biomass-text166 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
 }
@@ -308,13 +326,13 @@
   object-fit: cover;
 }
  
-.research-biomass-text160 {
+.research-biomass-text168 {
   color: #4c4c4c;
   width: 80%;
   align-self: center;
 }
  
-.research-biomass-text161 {
+.research-biomass-text169 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
 }
@@ -353,18 +371,18 @@
   object-fit: cover;
 }
  
-.research-biomass-text163 {
+.research-biomass-text171 {
   color: #4c4c4c;
   width: 80%;
   align-self: center;
 }
  
-.research-biomass-text164 {
+.research-biomass-text172 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
 }
  
-.research-biomass-text166 {
+.research-biomass-text174 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -388,7 +406,7 @@
   height: auto;
 }
  
-.research-biomass-text170 {
+.research-biomass-text178 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -398,14 +416,14 @@
   padding-bottom: 10px;
 }
  
-.research-biomass-text172 {
+.research-biomass-text180 {
   font-size: 24px;
   font-style: normal;
   font-family: "AvenirLTPro-Black";
   font-weight: 500;
 }
  
-.research-biomass-text179 {
+.research-biomass-text187 {
   font-family: "AvenirLTPro-Black";
 }
  
@@ -423,18 +441,18 @@
   object-fit: cover;
 }
  
-.research-biomass-text184 {
+.research-biomass-text192 {
   color: #4c4c4c;
   width: 80%;
   align-self: center;
 }
  
-.research-biomass-text185 {
+.research-biomass-text193 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
 }
  
-.research-biomass-text187 {
+.research-biomass-text195 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -444,7 +462,7 @@
   padding-bottom: 10px;
 }
  
-.research-biomass-text188 {
+.research-biomass-text196 {
   font-family: "AvenirLTPro-Black";
 }
  
@@ -462,18 +480,18 @@
   object-fit: cover;
 }
  
-.research-biomass-text199 {
+.research-biomass-text207 {
   color: #4c4c4c;
   width: 80%;
   align-self: center;
 }
  
-.research-biomass-text200 {
+.research-biomass-text208 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
 }
  
-.research-biomass-text202 {
+.research-biomass-text210 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -483,7 +501,7 @@
   padding-bottom: 10px;
 }
  
-.research-biomass-link16 {
+.research-biomass-link19 {
   text-decoration: underline;
 }
  
@@ -501,18 +519,18 @@
   object-fit: cover;
 }
  
-.research-biomass-text205 {
+.research-biomass-text213 {
   color: #4c4c4c;
   width: 80%;
   align-self: center;
 }
  
-.research-biomass-text206 {
+.research-biomass-text214 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
 }
  
-.research-biomass-text208 {
+.research-biomass-text216 {
   font-size: 18px;
   font-family: "AvenirLTPro-Book";
   line-height: 1.5;
@@ -522,40 +540,20 @@
   padding-bottom: 10px;
 }
  
-.research-biomass-text212 {
+.research-biomass-text220 {
   font-size: 24px;
   font-style: normal;
   font-family: "AvenirLTPro-Black";
   font-weight: 500;
 }
  
-.research-biomass-text219 {
+.research-biomass-text227 {
   font-size: 24px;
   font-style: normal;
   font-family: "AvenirLTPro-Black";
   font-weight: 500;
-}
- 
-.research-biomass-link17 {
-  text-decoration: underline;
-}
- 
-.research-biomass-link18 {
-  text-decoration: underline;
-}
- 
-.research-biomass-link19 {
-  text-decoration: underline;
 }
  
 .research-biomass-link20 {
-  text-decoration: underline;
-}
- 
-.research-biomass-link21 {
-  text-decoration: underline;
-}
- 
-.research-biomass-link22 {
   text-decoration: underline;
 }
