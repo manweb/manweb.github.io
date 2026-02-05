@@ -86,11 +86,11 @@
           <span class="research-foundationmodels-text101">
             Geospatial Foundation Models
           </span>
-          <span class="research-foundationmodels-text102">
+          <span class="research-foundationmodels-thq-text-elm1">
             <span>
               This article is based on the paper published at ICLR 2025:&nbsp;
             </span>
-            <span class="research-foundationmodels-text104">
+            <span class="research-foundationmodels-text103">
               PyViT-FUSE: A Foundation Model for Multi-Sensor Earth Observation
               Data
             </span>
@@ -113,7 +113,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text113">
+            <span class="research-foundationmodels-text112">
               From Language to Landscapes: Why Foundation Models Matter
             </span>
             <br />
@@ -150,7 +150,7 @@
             <span>That’s the problem I set out to tackle.</span>
             <br />
             <br />
-            <span class="research-foundationmodels-text128">
+            <span class="research-foundationmodels-text127">
               From Concept to Architecture: The PyViT-FUSE Model
             </span>
             <br />
@@ -170,16 +170,16 @@
               src="public/pyvit-fuse%20-%20architecture-800w.png"
               class="research-foundationmodels-image2"
             />
-            <span class="research-foundationmodels-text133">
+            <span class="research-foundationmodels-text132">
               <span>Fig 1: Overview of the PyViT-FUSE architecture</span>
               <span></span>
             </span>
           </div>
-          <span class="research-foundationmodels-text136">
+          <span class="research-foundationmodels-thq-text-elm2">
             <span>The architecture has three main parts:</span>
             <br />
             <span></span>
-            <span class="research-foundationmodels-text140">
+            <span class="research-foundationmodels-text138">
               1. Input module
             </span>
             <span>
@@ -188,7 +188,7 @@
             </span>
             <br />
             <span></span>
-            <span class="research-foundationmodels-text144">
+            <span class="research-foundationmodels-text142">
               2. Fusion module
             </span>
             <span>
@@ -197,7 +197,7 @@
             </span>
             <br />
             <span></span>
-            <span class="research-foundationmodels-text148">
+            <span class="research-foundationmodels-text146">
               3. Pyramidal Vision Transformer (ViT)
             </span>
             <span>
@@ -213,7 +213,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text155">
+            <span class="research-foundationmodels-text153">
               Training the Model: Self-Supervised Learning with SwAV
             </span>
             <br />
@@ -239,8 +239,8 @@
               src="public/003_swav-200h.png"
               class="research-foundationmodels-image3"
             />
-            <span class="research-foundationmodels-text163">
-              <span class="research-foundationmodels-text164">
+            <span class="research-foundationmodels-text161">
+              <span class="research-foundationmodels-text162">
                 Fig 2: Illustration of the modified SwAV algorithm which
                 generates a global view through weak augmentations and multiple
                 local views through heavy augmentations including band and
@@ -251,7 +251,7 @@
               <span></span>
             </span>
           </div>
-          <span class="research-foundationmodels-text166">
+          <span class="research-foundationmodels-thq-text-elm3">
             <span>
               To make this approach work for remote sensing, I introduced a
               band-drop augmentation. The idea is that a single surface patch
@@ -269,7 +269,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text173">
+            <span class="research-foundationmodels-text170">
               What the Model Learned
             </span>
             <br />
@@ -289,13 +289,13 @@
               src="public/similarity_distance-600w.png"
               class="research-foundationmodels-image4"
             />
-            <span class="research-foundationmodels-text178">
+            <span class="research-foundationmodels-text175">
               Fig 3: Cosine similarity (left) and L2 distance between the
               embeddings of the global view and local view across the samples
               within a batch.
             </span>
           </div>
-          <span class="research-foundationmodels-text179">
+          <span class="research-foundationmodels-thq-text-elm4">
             <span>
               That’s exactly what we found — embeddings of the same surface
               patch were closely aligned, even if one came from optical imagery
@@ -318,13 +318,13 @@
               src="public/007_prototype_alignment-200h.png"
               class="research-foundationmodels-image5"
             />
-            <span class="research-foundationmodels-text185">
+            <span class="research-foundationmodels-text181">
               Fig 4: Illustration of embedding alignment with all prototypes for
               the global (q) and local (p) view.
             </span>
           </div>
-          <span class="research-foundationmodels-text186">
-            <span class="research-foundationmodels-text187">
+          <span class="research-foundationmodels-thq-text-elm5">
+            <span class="research-foundationmodels-text182">
               From Representations to Real Applications
             </span>
             <br />
@@ -337,7 +337,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text193">
+            <span class="research-foundationmodels-text188">
               1. Detecting Solar PV Installations
             </span>
             <br />
@@ -355,14 +355,14 @@
               src="public/012_solarpv_outputs-600w.png"
               class="research-foundationmodels-image6"
             />
-            <span class="research-foundationmodels-text198">
+            <span class="research-foundationmodels-text193">
               Fig 5: Inputs (first 4 columns from the left), target (5th column)
               and the outputs of various models which use different input
               modalities. The right column corresponds to a reference model
               based on ResNet-50.
             </span>
           </div>
-          <span class="research-foundationmodels-text199">
+          <span class="research-foundationmodels-thq-text-elm6">
             <span>
               Using the foundation model as the encoder, I built a simple
               convolutional decoder that upsamples and merges feature maps from
@@ -386,7 +386,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text209">
+            <span class="research-foundationmodels-text203">
               2. Cloud and Shadow Detection
             </span>
             <br />
@@ -403,13 +403,13 @@
               src="public/cloudmask_sample-600w.png"
               class="research-foundationmodels-image7"
             />
-            <span class="research-foundationmodels-text214">
+            <span class="research-foundationmodels-text208">
               Fig 6: Inputs (two first columns from the left), target (3rd
               column) and model output. The right column corresponds to a
               reference model based on ResNet-50.
             </span>
           </div>
-          <span class="research-foundationmodels-text215">
+          <span class="research-foundationmodels-thq-text-elm7">
             <span>
               The model outputs three classes (cloud, shadow, background) and
               works on single-modality inputs. Despite its simplicity, the
@@ -426,7 +426,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text222">
+            <span class="research-foundationmodels-text215">
               Compressing Earth: The Power of Embeddings
             </span>
             <br />
@@ -463,14 +463,14 @@
               src="public/embeddings-600w.png"
               class="research-foundationmodels-image8"
             />
-            <span class="research-foundationmodels-text236">
+            <span class="research-foundationmodels-text229">
               Fig 7: Visualization of embeddings generated by PyViT-FUSE for
               each 960m x 960m patch. The color represents the distance in
               feature space by projecting the 1024-dimensional feature vector
               onto a 3-dimensional RGB space by a parametric UMAP model.
             </span>
           </div>
-          <span class="research-foundationmodels-text237">
+          <span class="research-foundationmodels-thq-text-elm8">
             <span>
               In a way, these embeddings become a memory of the planet — a
               compressed but meaningful representation of its surface.
@@ -479,6 +479,10 @@
           </span>
         </div>
       </div>
+      <link
+        rel="canonical"
+        href="https://parallel-several-shark-4mk4lh.teleporthq.app/research-foundation_models"
+      />
     </div>
     <script>
       window.addEventListener('scroll', function() {

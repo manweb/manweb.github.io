@@ -8,7 +8,7 @@
   background-color: #f2f4fa;
 }
  
-.home-navbar-interactive {
+.home-thq-navbar-interactive-elm {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -23,13 +23,13 @@
   background-color: #f2f4fa;
 }
  
-.home-desktop-menu {
+.home-thq-desktop-menu-elm {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
  
-.home-links1 {
+.home-thq-links-elm1 {
   flex: 1;
   display: flex;
   align-items: center;
@@ -70,7 +70,7 @@
   text-decoration: none;
 }
  
-.home-burger-menu {
+.home-thq-burger-menu-elm {
   display: none;
 }
  
@@ -79,7 +79,7 @@
   height: var(--dl-layout-size-xsmall);
 }
  
-.home-mobile-menu {
+.home-thq-mobile-menu-elm {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -93,13 +93,13 @@
   background-color: #fff;
 }
  
-.home-nav {
+.home-thq-nav-elm {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
  
-.home-top {
+.home-thq-top-elm {
   width: 100%;
   display: flex;
   align-items: center;
@@ -107,7 +107,7 @@
   justify-content: space-between;
 }
  
-.home-close-menu {
+.home-thq-close-menu-elm {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,7 +118,7 @@
   height: var(--dl-layout-size-xsmall);
 }
  
-.home-links2 {
+.home-thq-links-elm2 {
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
@@ -126,12 +126,12 @@
   flex-direction: column;
 }
  
-.home-text10 {
+.home-thq-text-elm1 {
   margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
  
-.home-text11 {
+.home-thq-text-elm2 {
   margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
 }
@@ -186,7 +186,7 @@
   justify-content: center;
 }
  
-.home-text12 {
+.home-text10 {
   font-size: 32px;
   font-style: normal;
   font-family: "AvenirLTPro-Black";
@@ -194,7 +194,7 @@
   padding-top: 0px;
 }
  
-.home-text13 {
+.home-text11 {
   font-size: 20px;
   text-align: center;
   font-family: "AvenirLTPro-Book";
@@ -232,7 +232,7 @@
   background-color: #ffffff;
 }
  
-.home-text18 {
+.home-text16 {
   font-size: 18px;
   text-align: center;
   font-family: "AvenirLTPro-Book";
@@ -282,7 +282,7 @@
   background-color: #f2f4fa;
 }
  
-.home-text24 {
+.home-text22 {
   width: 100%;
   height: 100px;
   display: flex;
@@ -325,7 +325,7 @@
   object-fit: cover;
 }
  
-.home-text25 {
+.home-text23 {
   font-size: 24px;
   font-style: normal;
   margin-top: 10px;
@@ -333,7 +333,7 @@
   font-weight: 700;
 }
  
-.home-text26 {
+.home-text24 {
   font-size: 18px;
   margin-top: 10px;
   font-family: "AvenirLTPro-Book";
@@ -362,7 +362,7 @@
   object-fit: cover;
 }
  
-.home-text27 {
+.home-text25 {
   font-size: 24px;
   font-style: normal;
   margin-top: 10px;
@@ -370,7 +370,7 @@
   font-weight: 700;
 }
  
-.home-text28 {
+.home-text26 {
   font-size: 18px;
   margin-top: 10px;
   font-family: "AvenirLTPro-Book";
@@ -400,7 +400,7 @@
   object-fit: cover;
 }
  
-.home-text29 {
+.home-text27 {
   font-size: 24px;
   font-style: normal;
   margin-top: 10px;
@@ -408,7 +408,7 @@
   font-weight: 700;
 }
  
-.home-text30 {
+.home-text28 {
   font-size: 18px;
   margin-top: 10px;
   font-family: "AvenirLTPro-Book";
@@ -453,7 +453,7 @@
   background-color: #f2f4fa;
 }
  
-.home-text31 {
+.home-text29 {
   width: 100%;
   height: 100px;
   display: flex;
@@ -531,7 +531,7 @@
   background-color: #f2f4fa;
 }
  
-.home-text32 {
+.home-text30 {
   width: 100%;
   height: 100px;
   display: flex;
@@ -551,7 +551,7 @@
   flex-direction: column;
 }
  
-.home-text33 {
+.home-text31 {
   width: 100%;
   height: auto;
   font-size: 18px;
@@ -609,22 +609,22 @@
 }
  
 @media(max-width: 767px) {
-  .home-navbar-interactive {
+  .home-thq-navbar-interactive-elm {
     padding-left: var(--dl-layout-space-twounits);
     padding-right: var(--dl-layout-space-twounits);
   }
-  .home-desktop-menu {
+  .home-thq-desktop-menu-elm {
     display: none;
   }
-  .home-burger-menu {
+  .home-thq-burger-menu-elm {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .home-text10 {
+  .home-thq-text-elm1 {
     margin-bottom: var(--dl-layout-space-unit);
   }
-  .home-text11 {
+  .home-thq-text-elm2 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
@@ -646,11 +646,11 @@
   .home-container10 {
     padding-top: 60px;
   }
-  .home-navbar-interactive {
+  .home-thq-navbar-interactive-elm {
     height: 50px;
     padding: var(--dl-layout-space-unit);
   }
-  .home-mobile-menu {
+  .home-thq-mobile-menu-elm {
     padding: 16px;
   }
   .home-container11 {
@@ -664,22 +664,22 @@
   .home-container13 {
     width: 66%;
   }
-  .home-text12 {
+  .home-text10 {
     font-size: 24px;
     font-style: normal;
     font-family: AvenirLTPro-Black;
     font-weight: 500;
   }
-  .home-text13 {
+  .home-text11 {
     font-family: AvenirLTPro-Book;
   }
+  .home-text12 {
+    font-size: 16px;
+  }
+  .home-text13 {
+    font-size: 16px;
+  }
   .home-text14 {
-    font-size: 16px;
-  }
-  .home-text15 {
-    font-size: 16px;
-  }
-  .home-text16 {
     font-size: 16px;
   }
   .home-container14 {
@@ -690,21 +690,21 @@
     padding: 5px;
     margin-top: -80px;
   }
-  .home-text18 {
+  .home-text16 {
     font-family: AvenirLTPro-Book;
     padding-left: 0%;
     padding-right: 0%;
+  }
+  .home-text17 {
+    font-size: 14px;
+  }
+  .home-text18 {
+    font-size: 14px;
   }
   .home-text19 {
     font-size: 14px;
   }
   .home-text20 {
-    font-size: 14px;
-  }
-  .home-text21 {
-    font-size: 14px;
-  }
-  .home-text22 {
     font-size: 14px;
   }
   .home-container16 {
@@ -718,7 +718,7 @@
     height: 50px;
     margin-top: -25px;
   }
-  .home-text24 {
+  .home-text22 {
     font-size: 18px;
     font-family: AvenirLTPro-Black;
   }
@@ -731,6 +731,21 @@
     padding: 5px;
     margin-right: 1%;
   }
+  .home-text23 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: AvenirLTPro-Book;
+    font-weight: 700;
+  }
+  .home-text24 {
+    font-size: 14px;
+    font-family: AvenirLTPro-Book;
+  }
+  .home-container21 {
+    width: 32%;
+    height: auto;
+    padding: 5px;
+  }
   .home-text25 {
     font-size: 16px;
     font-style: normal;
@@ -741,10 +756,10 @@
     font-size: 14px;
     font-family: AvenirLTPro-Book;
   }
-  .home-container21 {
+  .home-container22 {
     width: 32%;
-    height: auto;
     padding: 5px;
+    margin-left: 1%;
   }
   .home-text27 {
     font-size: 16px;
@@ -753,21 +768,6 @@
     font-weight: 700;
   }
   .home-text28 {
-    font-size: 14px;
-    font-family: AvenirLTPro-Book;
-  }
-  .home-container22 {
-    width: 32%;
-    padding: 5px;
-    margin-left: 1%;
-  }
-  .home-text29 {
-    font-size: 16px;
-    font-style: normal;
-    font-family: AvenirLTPro-Book;
-    font-weight: 700;
-  }
-  .home-text30 {
     font-size: 14px;
     font-family: AvenirLTPro-Book;
   }
@@ -782,7 +782,7 @@
     height: 50px;
     margin-top: -25px;
   }
-  .home-text31 {
+  .home-text29 {
     font-size: 18px;
     font-family: AvenirLTPro-Black;
   }
@@ -809,14 +809,14 @@
     height: 50px;
     margin-top: -25px;
   }
-  .home-text32 {
+  .home-text30 {
     font-size: 18px;
     font-family: AvenirLTPro-Black;
   }
   .home-container32 {
     width: 90%;
   }
-  .home-text33 {
+  .home-text31 {
     font-size: 14px;
     font-family: AvenirLTPro-Book;
   }
