@@ -182,29 +182,26 @@
             <span class="research-foundationmodels-text138">
               1. Input module:
             </span>
-            <span class="research-foundationmodels-text139">R</span>
             <span>
-              eads imagery from different sensors (e.g., Sentinel, SPOT) while
+              Reads imagery from different sensors (e.g., Sentinel, SPOT) while
               keeping their unique resolutions intact.
             </span>
             <br />
             <span></span>
-            <span class="research-foundationmodels-text143">
+            <span class="research-foundationmodels-text142">
               2. Fusion module:
             </span>
-            <span class="research-foundationmodels-text144">C</span>
             <span>
-              ombines the different inputs into a unified representation, no
+              Combines the different inputs into a unified representation, no
               matter which bands or sensors are available.
             </span>
             <br />
             <span></span>
-            <span class="research-foundationmodels-text148">
+            <span class="research-foundationmodels-text146">
               3. Pyramidal Vision Transformer (ViT):
             </span>
-            <span class="research-foundationmodels-text149">E</span>
             <span>
-              xtracts hierarchical features at multiple scales, similar to how
+              Extracts hierarchical features at multiple scales, similar to how
               CNNs build progressively richer spatial features.
             </span>
             <br />
@@ -216,7 +213,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text156">
+            <span class="research-foundationmodels-text153">
               Training the Model: Self-Supervised Learning with SwAV
             </span>
             <br />
@@ -242,8 +239,8 @@
               src="public/003_swav-1100w.png"
               class="research-foundationmodels-image3"
             />
-            <span class="research-foundationmodels-text164">
-              <span class="research-foundationmodels-text165">
+            <span class="research-foundationmodels-text161">
+              <span class="research-foundationmodels-text162">
                 Fig 2: Illustration of the modified SwAV algorithm which
                 generates a global view through weak augmentations and multiple
                 local views through heavy augmentations including band and
@@ -272,7 +269,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text173">
+            <span class="research-foundationmodels-text170">
               What the Model Learned
             </span>
             <br />
@@ -292,7 +289,7 @@
               src="public/similarity_distance-1100w.png"
               class="research-foundationmodels-image4"
             />
-            <span class="research-foundationmodels-text178">
+            <span class="research-foundationmodels-text175">
               Fig 3: Cosine similarity (left) and L2 distance between the
               embeddings of the global view and local view across the samples
               within a batch.
@@ -321,13 +318,13 @@
               src="public/007_prototype_alignment-1100w.png"
               class="research-foundationmodels-image5"
             />
-            <span class="research-foundationmodels-text184">
+            <span class="research-foundationmodels-text181">
               Fig 4: Illustration of embedding alignment with all prototypes for
               the global (q) and local (p) view.
             </span>
           </div>
           <span class="research-foundationmodels-thq-text-elm5">
-            <span class="research-foundationmodels-text185">
+            <span class="research-foundationmodels-text182">
               From Representations to Real Applications
             </span>
             <br />
@@ -340,7 +337,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text191">
+            <span class="research-foundationmodels-text188">
               1. Detecting Solar PV Installations
             </span>
             <br />
@@ -358,7 +355,7 @@
               src="public/012_solarpv_outputs-1100w.png"
               class="research-foundationmodels-image6"
             />
-            <span class="research-foundationmodels-text196">
+            <span class="research-foundationmodels-text193">
               Fig 5: Inputs (first 4 columns from the left), target (5th column)
               and the outputs of various models which use different input
               modalities. The right column corresponds to a reference model
@@ -389,7 +386,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text206">
+            <span class="research-foundationmodels-text203">
               2. Cloud and Shadow Detection
             </span>
             <br />
@@ -406,7 +403,7 @@
               src="public/cloudmask_sample-1100w.png"
               class="research-foundationmodels-image7"
             />
-            <span class="research-foundationmodels-text211">
+            <span class="research-foundationmodels-text208">
               Fig 6: Inputs (two first columns from the left), target (3rd
               column) and model output. The right column corresponds to a
               reference model based on ResNet-50.
@@ -429,7 +426,7 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text218">
+            <span class="research-foundationmodels-text215">
               Compressing Earth: The Power of Embeddings
             </span>
             <br />
@@ -466,7 +463,7 @@
               src="public/embeddings-1100w.png"
               class="research-foundationmodels-image8"
             />
-            <span class="research-foundationmodels-text232">
+            <span class="research-foundationmodels-text229">
               Fig 7: Visualization of embeddings generated by PyViT-FUSE for
               each 960m x 960m patch. The color represents the distance in
               feature space by projecting the 1024-dimensional feature vector
