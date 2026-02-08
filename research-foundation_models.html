@@ -107,8 +107,8 @@
             <br />
             <br />
             <span>
-              This post is a summary of that journey — from the first prototype
-              to early results — and what it might mean for the future of remote
+              This post is a summary of that journey, from the first prototype
+              to early results, and what it might mean for the future of remote
               sensing.
             </span>
             <br />
@@ -127,7 +127,7 @@
             <br />
             <br />
             <span>
-              The same concept can be applied to imagery — in our case, Earth
+              The same concept can be applied to imagery, in our case, Earth
               observation imagery from satellites. Instead of words and
               sentences, our “language” consists of pixels, spectral bands, and
               spatial patterns. The goal is to learn an internal representation
@@ -140,9 +140,9 @@
               In remote sensing, this is particularly exciting (and challenging)
               because different satellites see the world in very different ways.
               They vary in spectral composition, spatial resolution, and
-              temporal coverage. Some capture fine optical details; others see
+              temporal coverage. Some capture fine optical details, others see
               radar backscatter or thermal signatures. A true foundation model
-              for Earth observation must learn to fuse all these modalities — to
+              for Earth observation must learn to fuse all these modalities to
               build a shared understanding of the planet.
             </span>
             <br />
@@ -159,7 +159,7 @@
               At the core of the project is a model architecture called
               PyViT-FUSE. It’s designed to process data from multiple satellite
               sources at their native resolutions and merge them into a single,
-              coherent embedding — a compact vector that represents the content
+              coherent embedding, a compact vector that represents the content
               of an image patch.
             </span>
             <br />
@@ -180,40 +180,43 @@
             <br />
             <span></span>
             <span class="research-foundationmodels-text138">
-              1. Input module
+              1. Input module:
             </span>
+            <span class="research-foundationmodels-text139">R</span>
             <span>
-              – reads imagery from different sensors (e.g., Sentinel, SPOT)
-              while keeping their unique resolutions intact.
+              eads imagery from different sensors (e.g., Sentinel, SPOT) while
+              keeping their unique resolutions intact.
             </span>
             <br />
             <span></span>
-            <span class="research-foundationmodels-text142">
-              2. Fusion module
+            <span class="research-foundationmodels-text143">
+              2. Fusion module:
             </span>
+            <span class="research-foundationmodels-text144">C</span>
             <span>
-              – combines the different inputs into a unified representation, no
+              ombines the different inputs into a unified representation, no
               matter which bands or sensors are available.
             </span>
             <br />
             <span></span>
-            <span class="research-foundationmodels-text146">
-              3. Pyramidal Vision Transformer (ViT)
+            <span class="research-foundationmodels-text148">
+              3. Pyramidal Vision Transformer (ViT):
             </span>
+            <span class="research-foundationmodels-text149">E</span>
             <span>
-              – extracts hierarchical features at multiple scales, similar to
-              how CNNs build progressively richer spatial features.
+              xtracts hierarchical features at multiple scales, similar to how
+              CNNs build progressively richer spatial features.
             </span>
             <br />
             <br />
             <span>
               These encoder features can be reused for a wide range of
-              downstream tasks — such as segmentation or classification — by
+              downstream tasks, such as segmentation or classification, by
               attaching lightweight decoders.
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text153">
+            <span class="research-foundationmodels-text156">
               Training the Model: Self-Supervised Learning with SwAV
             </span>
             <br />
@@ -221,7 +224,7 @@
             <span>
               One of the most important aspects of this work is that the model
               is trained without any labels. Instead, it learns by comparing
-              different “views” of the same location — a technique known as
+              different “views” of the same location, a technique known as
               self-supervised learning.
             </span>
             <br />
@@ -239,8 +242,8 @@
               src="public/003_swav-1100w.png"
               class="research-foundationmodels-image3"
             />
-            <span class="research-foundationmodels-text161">
-              <span class="research-foundationmodels-text162">
+            <span class="research-foundationmodels-text164">
+              <span class="research-foundationmodels-text165">
                 Fig 2: Illustration of the modified SwAV algorithm which
                 generates a global view through weak augmentations and multiple
                 local views through heavy augmentations including band and
@@ -255,7 +258,7 @@
             <span>
               To make this approach work for remote sensing, I introduced a
               band-drop augmentation. The idea is that a single surface patch
-              can be observed by multiple sensors — each with different spectral
+              can be observed by multiple sensors, each with different spectral
               bands. By randomly dropping or mixing these bands during training,
               the model learns to produce consistent embeddings even when some
               modalities are missing.
@@ -264,12 +267,12 @@
             <br />
             <span>
               This means that once trained, the model can process any
-              combination of input bands — an essential property for real-world
+              combination of input bands, an essential property for real-world
               satellite applications.
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text170">
+            <span class="research-foundationmodels-text173">
               What the Model Learned
             </span>
             <br />
@@ -289,7 +292,7 @@
               src="public/similarity_distance-1100w.png"
               class="research-foundationmodels-image4"
             />
-            <span class="research-foundationmodels-text175">
+            <span class="research-foundationmodels-text178">
               Fig 3: Cosine similarity (left) and L2 distance between the
               embeddings of the global view and local view across the samples
               within a batch.
@@ -297,9 +300,9 @@
           </div>
           <span class="research-foundationmodels-thq-text-elm4">
             <span>
-              That’s exactly what we found — embeddings of the same surface
-              patch were closely aligned, even if one came from optical imagery
-              and the other from radar or multispectral data.
+              That’s exactly what we found, embeddings of the same surface patch
+              were closely aligned, even if one came from optical imagery and
+              the other from radar or multispectral data.
             </span>
             <br />
             <br />
@@ -308,7 +311,7 @@
               strongly aligned with only a few prototype vectors, and
               corresponding views (global and local) matched the same
               prototypes. The cosine similarity between pairs of embeddings
-              confirmed this — high for the same sample, low for different ones.
+              confirmed this, high for the same sample, low for different ones.
             </span>
             <br />
           </span>
@@ -318,13 +321,13 @@
               src="public/007_prototype_alignment-1100w.png"
               class="research-foundationmodels-image5"
             />
-            <span class="research-foundationmodels-text181">
+            <span class="research-foundationmodels-text184">
               Fig 4: Illustration of embedding alignment with all prototypes for
               the global (q) and local (p) view.
             </span>
           </div>
           <span class="research-foundationmodels-thq-text-elm5">
-            <span class="research-foundationmodels-text182">
+            <span class="research-foundationmodels-text185">
               From Representations to Real Applications
             </span>
             <br />
@@ -337,14 +340,14 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text188">
+            <span class="research-foundationmodels-text191">
               1. Detecting Solar PV Installations
             </span>
             <br />
             <br />
             <span>
               The first experiment focused on detecting solar photovoltaic (PV)
-              arrays — structures that are small, spatially sparse, and often
+              arrays which are small structures, spatially sparse, and often
               difficult to identify from single modalities.
             </span>
             <br />
@@ -355,7 +358,7 @@
               src="public/012_solarpv_outputs-1100w.png"
               class="research-foundationmodels-image6"
             />
-            <span class="research-foundationmodels-text193">
+            <span class="research-foundationmodels-text196">
               Fig 5: Inputs (first 4 columns from the left), target (5th column)
               and the outputs of various models which use different input
               modalities. The right column corresponds to a reference model
@@ -386,14 +389,14 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text203">
+            <span class="research-foundationmodels-text206">
               2. Cloud and Shadow Detection
             </span>
             <br />
             <br />
             <span>
-              Next, I applied the same setup to cloud and shadow segmentation —
-              a classic task in remote sensing.
+              Next, I applied the same setup to cloud and shadow segmentation
+              which is a classic task in remote sensing.
             </span>
             <br />
           </span>
@@ -403,7 +406,7 @@
               src="public/cloudmask_sample-1100w.png"
               class="research-foundationmodels-image7"
             />
-            <span class="research-foundationmodels-text208">
+            <span class="research-foundationmodels-text211">
               Fig 6: Inputs (two first columns from the left), target (3rd
               column) and model output. The right column corresponds to a
               reference model based on ResNet-50.
@@ -426,22 +429,22 @@
             </span>
             <br />
             <br />
-            <span class="research-foundationmodels-text215">
+            <span class="research-foundationmodels-text218">
               Compressing Earth: The Power of Embeddings
             </span>
             <br />
             <br />
             <span>
               One of the most exciting implications of this work is that each
-              embedding — the output of the encoder — acts as a highly
-              compressed representation of an image scene.
+              embedding, the output of the encoder, acts as a highly compressed
+              representation of an image scene.
             </span>
             <br />
             <br />
             <span>
               Instead of storing or reprocessing terabytes of raw satellite
               data, we could imagine precomputing embeddings for all available
-              scenes. These could be indexed and searched directly — enabling
+              scenes. These could be indexed and searched directly, enabling
               tasks like:
             </span>
             <br />
@@ -463,7 +466,7 @@
               src="public/embeddings-1100w.png"
               class="research-foundationmodels-image8"
             />
-            <span class="research-foundationmodels-text229">
+            <span class="research-foundationmodels-text232">
               Fig 7: Visualization of embeddings generated by PyViT-FUSE for
               each 960m x 960m patch. The color represents the distance in
               feature space by projecting the 1024-dimensional feature vector
@@ -472,7 +475,7 @@
           </div>
           <span class="research-foundationmodels-thq-text-elm8">
             <span>
-              In a way, these embeddings become a memory of the planet — a
+              In a way, these embeddings become a memory of the planet, a
               compressed but meaningful representation of its surface.
             </span>
             <br />
