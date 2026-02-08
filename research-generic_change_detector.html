@@ -152,8 +152,8 @@
               progressively building realistic&nbsp;
             </span>
             <span>
-              context. The pyramid structure (Fig. A1) and the harmonization
-              process (Fig. A2) form the&nbsp;
+              context. The pyramid structure (Figure 1) and the harmonization
+              process form the&nbsp;
             </span>
             <span>generative backbone of the dataset creation pipeline.</span>
             <br />
@@ -186,7 +186,7 @@
             </span>
             <span>
               mask that marks where synthetic modifications occurred. The
-              process (Fig. A3) involves: 1.&nbsp;
+              process (Figures 2 and 3) involves: 1.&nbsp;
             </span>
             <span>
               Selecting a background Sentinel-2 image. 2. Sampling multiple
@@ -201,7 +201,7 @@
               the harmonized image, the&nbsp;
             </span>
             <span>
-              reference image, and the binary mask (Fig. A4), allowing
+              reference image, and the binary mask (Figure 4), allowing
               supervised training of a change detection&nbsp;
             </span>
             <span>network without requiring manual annotation.</span>
@@ -299,10 +299,10 @@
               structural and spectral differences while&nbsp;
             </span>
             <span>
-              remaining invariant to illumination and radiometric noise — a key
+              remaining invariant to illumination and radiometric noise, a key
               property for satellite change&nbsp;
             </span>
-            <span>detection.</span>
+            <span>detection. Figure 5 illustrates the WNet architecture.</span>
             <br />
           </span>
           <div class="research-genericchangedetector-container19">
@@ -336,16 +336,18 @@
               images, producing an array of&nbsp;
             </span>
             <span>
-              change maps that encode the probability of change through time. By
-              aggregating detections across&nbsp;
+              change maps that encode the probability of change through time
+              (Figure 6). By aggregating detections across&nbsp;
             </span>
             <span>
               time, we can derive color-coded maps where hue represents the
               estimated time of change&nbsp;
             </span>
             <span>
-              occurrence. This method (Fig. A8) distinguishes transient changes
-              from persistent transformations,&nbsp;
+              occurrence. Figure 7 illustrates an example of change detection
+              with colors representing the date the change was first observed.
+              This method distinguishes transient changes from persistent
+              transformations,&nbsp;
             </span>
             <span>
               enabling temporal interpretation of events such as construction or
@@ -396,8 +398,8 @@
               infrared bands to change detection&nbsp;
             </span>
             <span>
-              performance. Figures A9 and A10 demonstrate that models trained
-              with all six bands outperform&nbsp;
+              performance. Figure 8 demonstrates that models trained with all
+              six bands outperform&nbsp;
             </span>
             <span>
               RGB-only versions, particularly in detecting vegetation loss and
@@ -449,19 +451,19 @@
             </span>
             <span>
               higher levels provide deeper semantic information. As shown in
-              Fig. A11, models using only&nbsp;
+              Figure 9, models using only&nbsp;
             </span>
             <span>
               high-level features capture structure but lack precision, whereas
               models limited to low-level features&nbsp;
             </span>
             <span>
-              lose contextual accuracy. The configuration using all levels (2 6)
-              achieved the best balance (Fig.&nbsp;
+              lose contextual accuracy. The configuration using all levels (2 to
+              6) achieved the best balance (Figure 10
             </span>
             <span>
-              A12), confirming that combining features across scales is
-              essential for accurate change detection.
+              ), confirming that combining features across scales is essential
+              for accurate change detection.
             </span>
             <br />
           </span>
