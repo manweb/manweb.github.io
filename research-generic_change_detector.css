@@ -125,6 +125,7 @@
  
 .research-genericchangedetector-container15 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -133,13 +134,13 @@
 }
  
 .research-genericchangedetector-image11 {
-  width: 800px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text123 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -163,6 +164,7 @@
  
 .research-genericchangedetector-container16 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -171,13 +173,13 @@
 }
  
 .research-genericchangedetector-image12 {
-  width: 400px;
+  width: 45%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text137 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -185,6 +187,7 @@
  
 .research-genericchangedetector-container17 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -193,13 +196,13 @@
 }
  
 .research-genericchangedetector-image13 {
-  width: 600px;
+  width: 65%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text138 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -223,6 +226,7 @@
  
 .research-genericchangedetector-container18 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -231,13 +235,13 @@
 }
  
 .research-genericchangedetector-image14 {
-  width: 600px;
+  width: 65%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text149 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -260,6 +264,7 @@
  
 .research-genericchangedetector-container19 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -268,13 +273,13 @@
 }
  
 .research-genericchangedetector-image15 {
-  width: 800px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text163 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -297,6 +302,7 @@
  
 .research-genericchangedetector-container20 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -305,13 +311,13 @@
 }
  
 .research-genericchangedetector-image16 {
-  width: 400px;
+  width: 45%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text176 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -319,6 +325,7 @@
  
 .research-genericchangedetector-container21 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -327,13 +334,13 @@
 }
  
 .research-genericchangedetector-image17 {
-  width: 800px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text177 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -356,6 +363,7 @@
  
 .research-genericchangedetector-container22 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -364,23 +372,23 @@
 }
  
 .research-genericchangedetector-image18 {
-  width: 800px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-image19 {
-  width: 800px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-image20 {
-  width: 800px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text189 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -403,6 +411,7 @@
  
 .research-genericchangedetector-container23 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -411,13 +420,13 @@
 }
  
 .research-genericchangedetector-image21 {
-  width: 600px;
+  width: 65%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text201 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -425,6 +434,7 @@
  
 .research-genericchangedetector-container24 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -433,13 +443,13 @@
 }
  
 .research-genericchangedetector-image22 {
-  width: 600px;
+  width: 65%;
   object-fit: cover;
 }
  
 .research-genericchangedetector-text202 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";

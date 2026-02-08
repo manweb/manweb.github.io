@@ -126,6 +126,7 @@
  
 .research-foundationmodels-container16 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: flex-start;
@@ -134,14 +135,16 @@
 }
  
 .research-foundationmodels-image2 {
-  width: 800px;
+  width: 85%;
+  align-self: center;
   object-fit: cover;
 }
  
 .research-foundationmodels-text132 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
+  align-self: center;
   font-family: "AvenirLTPro-Book";
 }
  
@@ -176,6 +179,7 @@
  
 .research-foundationmodels-container17 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -184,13 +188,13 @@
 }
  
 .research-foundationmodels-image3 {
-  width: 600px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-foundationmodels-text161 {
   color: #4c4c4c;
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
 }
@@ -218,6 +222,7 @@
  
 .research-foundationmodels-container18 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -226,13 +231,13 @@
 }
  
 .research-foundationmodels-image4 {
-  width: 600px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-foundationmodels-text175 {
   color: #4c4c4c;
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -259,13 +264,13 @@
 }
  
 .research-foundationmodels-image5 {
-  width: 600px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-foundationmodels-text181 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -294,6 +299,7 @@
  
 .research-foundationmodels-container20 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -302,13 +308,13 @@
 }
  
 .research-foundationmodels-image6 {
-  width: 600px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-foundationmodels-text193 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -330,6 +336,7 @@
  
 .research-foundationmodels-container21 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -338,13 +345,13 @@
 }
  
 .research-foundationmodels-image7 {
-  width: 600px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-foundationmodels-text208 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
@@ -369,6 +376,7 @@
  
 .research-foundationmodels-container22 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -377,13 +385,13 @@
 }
  
 .research-foundationmodels-image8 {
-  width: 600px;
+  width: 85%;
   object-fit: cover;
 }
  
 .research-foundationmodels-text229 {
   color: rgb(76, 76, 76);
-  width: 80%;
+  width: 85%;
   font-size: 18px;
   align-self: center;
   font-family: "AvenirLTPro-Book";
