@@ -406,3 +406,25 @@
   padding-right: 10px;
   padding-bottom: 10px;
 }
+ 
+.research-foundationmodels-text233 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: "AvenirLTPro-Black";
+  font-weight: 500;
+}
+ 
+.research-foundationmodels-container23 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.research-foundationmodels-video {
+  width: 85%;
+  height: auto;
+  align-self: center;
+}

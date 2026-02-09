@@ -476,7 +476,40 @@
               compressed but meaningful representation of its surface.
             </span>
             <br />
+            <br />
+            <span class="research-foundationmodels-text233">
+              Direct Application of Embeddings - Similarity Search
+            </span>
+            <br />
+            <br />
+            <span>
+              The most direct use-case of embeddings is to use the embedding of
+              a specific location as query to find similar locations across a
+              large spacial extent. This can be done efficiently by measuring
+              alignment between embeddings using the cosine similarity or L2
+              distances in feature space. I built a small application to explore
+              similarity search in an interactive way. Clicking on the map
+              retrieves the closest available embedding, representing the
+              information at that location. It then finds similar locations
+              defined as having an L2 distance below a certain threshold. The
+              found locations are visualized with colors representing the
+              distance from green (close) to red (far) in feature space. This
+              demonstrates the efficiency and direct usability of embeddings
+              without further model training.
+            </span>
+            <br />
           </span>
+          <div class="research-foundationmodels-container23">
+            <video
+              src="public/embeddings_similarity_search_small.mp4"
+              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+              autoplay="true"
+              muted="true"
+              loop="true"
+              playsinline="true"
+              class="research-foundationmodels-video"
+            ></video>
+          </div>
         </div>
       </div>
       <link
