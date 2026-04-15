@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://parallel-several-shark-4mk4lh.teleporthq.app/sitemap.xml

@@ -1,0 +1,285 @@
+/* ============================================================
+   RESEARCH PAGE — shared styles
+   Inherits fonts/reset from portfolio.css via <link>
+   ============================================================ */
+
+/* ---- Layout ---- */
+.research-page {
+  background: #f8f9fb;
+  min-height: 100vh;
+}
+
+.research-header {
+  background: #fff;
+  border-bottom: 1px solid #eef0f6;
+  padding-top: 80px;
+  padding-bottom: 2.5rem;
+}
+
+.research-header-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #888;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s;
+}
+
+.breadcrumb:hover {
+  color: #E65103;
+}
+
+.breadcrumb svg {
+  transition: transform 0.2s;
+}
+
+.breadcrumb:hover svg {
+  transform: translateX(-3px);
+}
+
+.research-category {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #E65103;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 0.75rem;
+}
+
+.research-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1.15;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+}
+
+.research-paper-ref {
+  font-size: 0.9rem;
+  color: #888;
+  line-height: 1.6;
+}
+
+.research-paper-ref a {
+  color: #E65103;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.research-paper-ref a:hover {
+  color: #BF4408;
+}
+
+/* ---- Article body ---- */
+.research-body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+}
+
+.research-body p,
+.research-body .prose {
+  font-size: 1.05rem;
+  color: #3a3a4a;
+  line-height: 1.9;
+  margin-bottom: 1.4rem;
+}
+
+.research-body h2 {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: -0.5px;
+  margin-top: 2.75rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #f0f2f8;
+}
+
+.research-body h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.research-body ul,
+.research-body ol {
+  margin: 0 0 1.4rem 1.5rem;
+  color: #3a3a4a;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.research-body li {
+  margin-bottom: 0.3rem;
+}
+
+.research-body strong {
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.research-body a {
+  color: #E65103;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.research-body a:hover {
+  color: #BF4408;
+}
+
+/* ---- Code / formula ---- */
+.research-body code {
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 0.9em;
+  background: #f0f2f8;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  color: #1a1a2e;
+}
+
+/* ---- Resource box ---- */
+.resource-box {
+  background: #fff;
+  border: 1px solid #e8eaf2;
+  border-left: 3px solid #E65103;
+  border-radius: 8px;
+  padding: 1.25rem 1.4rem;
+  margin: 1.75rem 0 2rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.resource-box strong {
+  color: #1a1a2e;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.resource-box a {
+  color: #E65103;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---- Figures ---- */
+.fig {
+  margin: 2.5rem 0;
+}
+
+.fig img,
+.fig video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.09);
+  display: block;
+}
+
+.fig video {
+  background: #000;
+}
+
+.fig-caption {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #888;
+  line-height: 1.6;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Two-column figure grid */
+.fig-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 2.5rem 0 0.5rem;
+}
+
+.fig-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.09);
+}
+
+/* Three-column figure grid */
+.fig-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75rem;
+  margin: 2.5rem 0 0.5rem;
+}
+
+.fig-grid-3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ---- Highlight callout ---- */
+.callout {
+  background: #fff8f5;
+  border: 1px solid rgba(230, 81, 3, 0.2);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.75rem 0;
+  font-size: 1rem;
+  color: #3a3a4a;
+  line-height: 1.8;
+}
+
+/* ---- Formula block ---- */
+.formula {
+  background: #f4f6fc;
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem 0;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 0.95rem;
+  color: #1a1a2e;
+  text-align: center;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 640px) {
+  .research-header {
+    padding-top: 72px;
+    padding-bottom: 2rem;
+  }
+
+  .research-body {
+    padding: 2rem 1.25rem 5rem;
+  }
+
+  .research-header-inner {
+    padding: 0 1.25rem;
+  }
+
+  .fig-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fig-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}

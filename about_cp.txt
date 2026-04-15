@@ -1,0 +1,5 @@
+Currently a Research Scientist at **EarthDaily** with a PhD in Physics from the University of Bern. I transitioned from neutrino physics academia to industry in 2019, applying deep learning to geospatial and environmental challenges via satellite Earth observation.
+
+Six years developing computer vision solutions: object detection, tracking, crop yield modeling, change detection, architecture search, and biomass estimation. My current focus is forest carbon estimation from multi-sensor data and Earth observation foundation models.
+
+tags: Deep Learning, Computer Vision, Geospatial AI, Remote Sensing, Foundation Models, Forest Carbon, PhD Physics
